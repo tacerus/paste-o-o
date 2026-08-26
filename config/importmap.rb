@@ -9,149 +9,162 @@ pin_all_from 'app/javascript/controllers', under: 'controllers'
 pin '@hotwired/turbo-rails', to: 'turbo.min.js', preload: true
 pin 'bootstrap', to: 'bootstrap.min.js', preload: true
 pin '@popperjs/core', to: 'popper.js', preload: true
-pin 'codemirror', to: 'https://ga.jspm.io/npm:codemirror@6.0.1/dist/index.js'
-pin '@codemirror/autocomplete', to: 'https://ga.jspm.io/npm:@codemirror/autocomplete@6.3.4/dist/index.js'
-pin '@codemirror/commands', to: 'https://ga.jspm.io/npm:@codemirror/commands@6.1.2/dist/index.js'
-pin '@codemirror/language', to: 'https://ga.jspm.io/npm:@codemirror/language@6.3.1/dist/index.js'
-pin '@codemirror/lint', to: 'https://ga.jspm.io/npm:@codemirror/lint@6.1.0/dist/index.js'
-pin '@codemirror/search', to: 'https://ga.jspm.io/npm:@codemirror/search@6.2.3/dist/index.js'
-pin '@codemirror/state', to: 'https://ga.jspm.io/npm:@codemirror/state@6.1.4/dist/index.js'
-pin '@codemirror/view', to: 'https://ga.jspm.io/npm:@codemirror/view@6.6.0/dist/index.js'
-pin '@lezer/common', to: 'https://ga.jspm.io/npm:@lezer/common@1.0.2/dist/index.js'
-pin '@lezer/highlight', to: 'https://ga.jspm.io/npm:@lezer/highlight@1.1.3/dist/index.js'
-pin 'crelt', to: 'https://ga.jspm.io/npm:crelt@1.0.5/index.es.js'
-pin 'style-mod', to: 'https://ga.jspm.io/npm:style-mod@4.0.0/src/style-mod.js'
-pin 'w3c-keyname', to: 'https://ga.jspm.io/npm:w3c-keyname@2.2.6/index.es.js'
+pin "codemirror" # @6.0.2
+pin "@codemirror/autocomplete", to: "@codemirror--autocomplete.js" # @6.20.3
+pin "@codemirror/commands", to: "@codemirror--commands.js" # @6.11.0
+pin "@codemirror/language", to: "@codemirror--language.js" # @6.12.4
+pin "@codemirror/lint", to: "@codemirror--lint.js" # @6.9.7
+pin "@codemirror/search", to: "@codemirror--search.js" # @6.7.1
+pin "@codemirror/state", to: "@codemirror--state.js" # @6.7.1
+pin "@codemirror/view", to: "@codemirror--view.js" # @6.43.9
+pin "@lezer/common", to: "@lezer--common.js" # @1.5.2
+pin "@lezer/highlight", to: "@lezer--highlight.js" # @1.2.3
+pin "crelt" # @1.0.7
+pin "style-mod" # @4.1.3
+pin "w3c-keyname" # @2.2.8
 pin "@hotwired/turbo-rails", to: "turbo.min.js", preload: true
-pin "@codemirror/language-data", to: "https://ga.jspm.io/npm:@codemirror/language-data@6.1.0/dist/index.js"
-pin "@codemirror/autocomplete", to: "https://ga.jspm.io/npm:@codemirror/autocomplete@6.4.0/dist/index.js"
-pin "@codemirror/lang-cpp", to: "https://ga.jspm.io/npm:@codemirror/lang-cpp@6.0.2/dist/index.js"
-pin "@codemirror/lang-css", to: "https://ga.jspm.io/npm:@codemirror/lang-css@6.0.1/dist/index.js"
-pin "@codemirror/lang-html", to: "https://ga.jspm.io/npm:@codemirror/lang-html@6.4.0/dist/index.js"
-pin "@codemirror/lang-java", to: "https://ga.jspm.io/npm:@codemirror/lang-java@6.0.1/dist/index.js"
-pin "@codemirror/lang-javascript", to: "https://ga.jspm.io/npm:@codemirror/lang-javascript@6.1.2/dist/index.js"
-pin "@codemirror/lang-json", to: "https://ga.jspm.io/npm:@codemirror/lang-json@6.0.1/dist/index.js"
-pin "@codemirror/lang-markdown", to: "https://ga.jspm.io/npm:@codemirror/lang-markdown@6.0.5/dist/index.js"
-pin "@codemirror/lang-php", to: "https://ga.jspm.io/npm:@codemirror/lang-php@6.0.1/dist/index.js"
-pin "@codemirror/lang-python", to: "https://ga.jspm.io/npm:@codemirror/lang-python@6.1.1/dist/index.js"
-pin "@codemirror/lang-rust", to: "https://ga.jspm.io/npm:@codemirror/lang-rust@6.0.1/dist/index.js"
-pin "@codemirror/lang-sql", to: "https://ga.jspm.io/npm:@codemirror/lang-sql@6.3.3/dist/index.js"
-pin "@codemirror/lang-wast", to: "https://ga.jspm.io/npm:@codemirror/lang-wast@6.0.1/dist/index.js"
-pin "@codemirror/lang-xml", to: "https://ga.jspm.io/npm:@codemirror/lang-xml@6.0.1/dist/index.js"
-pin "@codemirror/language", to: "https://ga.jspm.io/npm:@codemirror/language@6.3.2/dist/index.js"
-pin "@codemirror/legacy-modes/mode/apl", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/apl.js"
-pin "@codemirror/legacy-modes/mode/asciiarmor", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/asciiarmor.js"
-pin "@codemirror/legacy-modes/mode/asn1", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/asn1.js"
-pin "@codemirror/legacy-modes/mode/asterisk", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/asterisk.js"
-pin "@codemirror/legacy-modes/mode/brainfuck", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/brainfuck.js"
-pin "@codemirror/legacy-modes/mode/clike", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/clike.js"
-pin "@codemirror/legacy-modes/mode/clojure", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/clojure.js"
-pin "@codemirror/legacy-modes/mode/cmake", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/cmake.js"
-pin "@codemirror/legacy-modes/mode/cobol", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/cobol.js"
-pin "@codemirror/legacy-modes/mode/coffeescript", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/coffeescript.js"
-pin "@codemirror/legacy-modes/mode/commonlisp", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/commonlisp.js"
-pin "@codemirror/legacy-modes/mode/crystal", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/crystal.js"
-pin "@codemirror/legacy-modes/mode/css", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/css.js"
-pin "@codemirror/legacy-modes/mode/cypher", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/cypher.js"
-pin "@codemirror/legacy-modes/mode/d", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/d.js"
-pin "@codemirror/legacy-modes/mode/diff", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/diff.js"
-pin "@codemirror/legacy-modes/mode/dockerfile", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/dockerfile.js"
-pin "@codemirror/legacy-modes/mode/dtd", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/dtd.js"
-pin "@codemirror/legacy-modes/mode/dylan", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/dylan.js"
-pin "@codemirror/legacy-modes/mode/ebnf", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/ebnf.js"
-pin "@codemirror/legacy-modes/mode/ecl", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/ecl.js"
-pin "@codemirror/legacy-modes/mode/eiffel", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/eiffel.js"
-pin "@codemirror/legacy-modes/mode/elm", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/elm.js"
-pin "@codemirror/legacy-modes/mode/erlang", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/erlang.js"
-pin "@codemirror/legacy-modes/mode/factor", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/factor.js"
-pin "@codemirror/legacy-modes/mode/fcl", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/fcl.js"
-pin "@codemirror/legacy-modes/mode/forth", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/forth.js"
-pin "@codemirror/legacy-modes/mode/fortran", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/fortran.js"
-pin "@codemirror/legacy-modes/mode/gas", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/gas.js"
-pin "@codemirror/legacy-modes/mode/gherkin", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/gherkin.js"
-pin "@codemirror/legacy-modes/mode/go", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/go.js"
-pin "@codemirror/legacy-modes/mode/groovy", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/groovy.js"
-pin "@codemirror/legacy-modes/mode/haskell", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/haskell.js"
-pin "@codemirror/legacy-modes/mode/haxe", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/haxe.js"
-pin "@codemirror/legacy-modes/mode/http", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/http.js"
-pin "@codemirror/legacy-modes/mode/idl", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/idl.js"
-pin "@codemirror/legacy-modes/mode/javascript", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/javascript.js"
-pin "@codemirror/legacy-modes/mode/jinja2", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/jinja2.js"
-pin "@codemirror/legacy-modes/mode/julia", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/julia.js"
-pin "@codemirror/legacy-modes/mode/livescript", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/livescript.js"
-pin "@codemirror/legacy-modes/mode/lua", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/lua.js"
-pin "@codemirror/legacy-modes/mode/mathematica", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/mathematica.js"
-pin "@codemirror/legacy-modes/mode/mbox", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/mbox.js"
-pin "@codemirror/legacy-modes/mode/mirc", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/mirc.js"
-pin "@codemirror/legacy-modes/mode/mllike", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/mllike.js"
-pin "@codemirror/legacy-modes/mode/modelica", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/modelica.js"
-pin "@codemirror/legacy-modes/mode/mscgen", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/mscgen.js"
-pin "@codemirror/legacy-modes/mode/mumps", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/mumps.js"
-pin "@codemirror/legacy-modes/mode/nginx", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/nginx.js"
-pin "@codemirror/legacy-modes/mode/nsis", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/nsis.js"
-pin "@codemirror/legacy-modes/mode/ntriples", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/ntriples.js"
-pin "@codemirror/legacy-modes/mode/octave", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/octave.js"
-pin "@codemirror/legacy-modes/mode/oz", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/oz.js"
-pin "@codemirror/legacy-modes/mode/pascal", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/pascal.js"
-pin "@codemirror/legacy-modes/mode/perl", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/perl.js"
-pin "@codemirror/legacy-modes/mode/pig", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/pig.js"
-pin "@codemirror/legacy-modes/mode/powershell", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/powershell.js"
-pin "@codemirror/legacy-modes/mode/properties", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/properties.js"
-pin "@codemirror/legacy-modes/mode/protobuf", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/protobuf.js"
-pin "@codemirror/legacy-modes/mode/puppet", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/puppet.js"
-pin "@codemirror/legacy-modes/mode/python", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/python.js"
-pin "@codemirror/legacy-modes/mode/q", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/q.js"
-pin "@codemirror/legacy-modes/mode/r", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/r.js"
-pin "@codemirror/legacy-modes/mode/rpm", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/rpm.js"
-pin "@codemirror/legacy-modes/mode/ruby", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/ruby.js"
-pin "@codemirror/legacy-modes/mode/sas", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/sas.js"
-pin "@codemirror/legacy-modes/mode/sass", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/sass.js"
-pin "@codemirror/legacy-modes/mode/scheme", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/scheme.js"
-pin "@codemirror/legacy-modes/mode/shell", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/shell.js"
-pin "@codemirror/legacy-modes/mode/sieve", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/sieve.js"
-pin "@codemirror/legacy-modes/mode/smalltalk", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/smalltalk.js"
-pin "@codemirror/legacy-modes/mode/solr", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/solr.js"
-pin "@codemirror/legacy-modes/mode/sparql", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/sparql.js"
-pin "@codemirror/legacy-modes/mode/spreadsheet", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/spreadsheet.js"
-pin "@codemirror/legacy-modes/mode/sql", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/sql.js"
-pin "@codemirror/legacy-modes/mode/stex", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/stex.js"
-pin "@codemirror/legacy-modes/mode/stylus", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/stylus.js"
-pin "@codemirror/legacy-modes/mode/swift", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/swift.js"
-pin "@codemirror/legacy-modes/mode/tcl", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/tcl.js"
-pin "@codemirror/legacy-modes/mode/textile", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/textile.js"
-pin "@codemirror/legacy-modes/mode/tiddlywiki", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/tiddlywiki.js"
-pin "@codemirror/legacy-modes/mode/tiki", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/tiki.js"
-pin "@codemirror/legacy-modes/mode/toml", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/toml.js"
-pin "@codemirror/legacy-modes/mode/troff", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/troff.js"
-pin "@codemirror/legacy-modes/mode/ttcn", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/ttcn.js"
-pin "@codemirror/legacy-modes/mode/ttcn-cfg", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/ttcn-cfg.js"
-pin "@codemirror/legacy-modes/mode/turtle", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/turtle.js"
-pin "@codemirror/legacy-modes/mode/vb", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/vb.js"
-pin "@codemirror/legacy-modes/mode/vbscript", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/vbscript.js"
-pin "@codemirror/legacy-modes/mode/velocity", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/velocity.js"
-pin "@codemirror/legacy-modes/mode/verilog", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/verilog.js"
-pin "@codemirror/legacy-modes/mode/vhdl", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/vhdl.js"
-pin "@codemirror/legacy-modes/mode/webidl", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/webidl.js"
-pin "@codemirror/legacy-modes/mode/xquery", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/xquery.js"
-pin "@codemirror/legacy-modes/mode/yacas", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/yacas.js"
-pin "@codemirror/legacy-modes/mode/yaml", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/yaml.js"
-pin "@codemirror/legacy-modes/mode/z80", to: "https://ga.jspm.io/npm:@codemirror/legacy-modes@6.3.1/mode/z80.js"
-pin "@codemirror/state", to: "https://ga.jspm.io/npm:@codemirror/state@6.2.0/dist/index.js"
-pin "@codemirror/view", to: "https://ga.jspm.io/npm:@codemirror/view@6.7.1/dist/index.js"
-pin "@lezer/common", to: "https://ga.jspm.io/npm:@lezer/common@1.0.2/dist/index.js"
-pin "@lezer/cpp", to: "https://ga.jspm.io/npm:@lezer/cpp@1.0.0/dist/index.es.js"
-pin "@lezer/css", to: "https://ga.jspm.io/npm:@lezer/css@1.1.1/dist/index.es.js"
-pin "@lezer/highlight", to: "https://ga.jspm.io/npm:@lezer/highlight@1.1.3/dist/index.js"
-pin "@lezer/html", to: "https://ga.jspm.io/npm:@lezer/html@1.3.0/dist/index.es.js"
-pin "@lezer/java", to: "https://ga.jspm.io/npm:@lezer/java@1.0.0/dist/index.es.js"
-pin "@lezer/javascript", to: "https://ga.jspm.io/npm:@lezer/javascript@1.4.0/dist/index.es.js"
-pin "@lezer/json", to: "https://ga.jspm.io/npm:@lezer/json@1.0.0/dist/index.es.js"
-pin "@lezer/lr", to: "https://ga.jspm.io/npm:@lezer/lr@1.2.5/dist/index.js"
-pin "@lezer/markdown", to: "https://ga.jspm.io/npm:@lezer/markdown@1.0.2/dist/index.js"
-pin "@lezer/php", to: "https://ga.jspm.io/npm:@lezer/php@1.0.0/dist/index.es.js"
-pin "@lezer/python", to: "https://ga.jspm.io/npm:@lezer/python@1.1.1/dist/index.es.js"
-pin "@lezer/rust", to: "https://ga.jspm.io/npm:@lezer/rust@1.0.0/dist/index.es.js"
-pin "@lezer/xml", to: "https://ga.jspm.io/npm:@lezer/xml@1.0.1/dist/index.es.js"
-pin "style-mod", to: "https://ga.jspm.io/npm:style-mod@4.0.0/src/style-mod.js"
-pin "w3c-keyname", to: "https://ga.jspm.io/npm:w3c-keyname@2.2.6/index.es.js"
-pin "@codemirror/theme-one-dark", to: "https://ga.jspm.io/npm:@codemirror/theme-one-dark@6.1.0/dist/index.js"
+pin "@codemirror/language-data", to: "@codemirror--language-data.js" # @6.5.2
+pin "@codemirror/autocomplete", to: "@codemirror--autocomplete.js" # @6.20.3
+pin "@codemirror/lang-cpp", to: "@codemirror--lang-cpp.js" # @6.0.3
+pin "@codemirror/lang-css", to: "@codemirror--lang-css.js" # @6.3.1
+pin "@codemirror/lang-html", to: "@codemirror--lang-html.js" # @6.4.12
+pin "@codemirror/lang-java", to: "@codemirror--lang-java.js" # @6.0.2
+pin "@codemirror/lang-javascript", to: "@codemirror--lang-javascript.js" # @6.2.5
+pin "@codemirror/lang-json", to: "@codemirror--lang-json.js" # @6.0.2
+pin "@codemirror/lang-markdown", to: "@codemirror--lang-markdown.js" # @6.5.2
+pin "@codemirror/lang-php", to: "@codemirror--lang-php.js" # @6.0.2
+pin "@codemirror/lang-python", to: "@codemirror--lang-python.js" # @6.2.1
+pin "@codemirror/lang-rust", to: "@codemirror--lang-rust.js" # @6.0.2
+pin "@codemirror/lang-sql", to: "@codemirror--lang-sql.js" # @6.10.0
+pin "@codemirror/lang-wast", to: "@codemirror--lang-wast.js" # @6.0.2
+pin "@codemirror/lang-xml", to: "@codemirror--lang-xml.js" # @6.1.0
+pin "@codemirror/language", to: "@codemirror--language.js" # @6.12.4
+pin "@codemirror/legacy-modes/mode/apl", to: "@codemirror--legacy-modes--mode--apl.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/asciiarmor", to: "@codemirror--legacy-modes--mode--asciiarmor.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/asn1", to: "@codemirror--legacy-modes--mode--asn1.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/asterisk", to: "@codemirror--legacy-modes--mode--asterisk.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/brainfuck", to: "@codemirror--legacy-modes--mode--brainfuck.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/clike", to: "@codemirror--legacy-modes--mode--clike.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/clojure", to: "@codemirror--legacy-modes--mode--clojure.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/cmake", to: "@codemirror--legacy-modes--mode--cmake.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/cobol", to: "@codemirror--legacy-modes--mode--cobol.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/coffeescript", to: "@codemirror--legacy-modes--mode--coffeescript.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/commonlisp", to: "@codemirror--legacy-modes--mode--commonlisp.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/crystal", to: "@codemirror--legacy-modes--mode--crystal.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/css", to: "@codemirror--legacy-modes--mode--css.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/cypher", to: "@codemirror--legacy-modes--mode--cypher.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/d", to: "@codemirror--legacy-modes--mode--d.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/diff", to: "@codemirror--legacy-modes--mode--diff.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/dockerfile", to: "@codemirror--legacy-modes--mode--dockerfile.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/dtd", to: "@codemirror--legacy-modes--mode--dtd.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/dylan", to: "@codemirror--legacy-modes--mode--dylan.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/ebnf", to: "@codemirror--legacy-modes--mode--ebnf.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/ecl", to: "@codemirror--legacy-modes--mode--ecl.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/eiffel", to: "@codemirror--legacy-modes--mode--eiffel.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/elm", to: "@codemirror--legacy-modes--mode--elm.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/erlang", to: "@codemirror--legacy-modes--mode--erlang.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/factor", to: "@codemirror--legacy-modes--mode--factor.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/fcl", to: "@codemirror--legacy-modes--mode--fcl.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/forth", to: "@codemirror--legacy-modes--mode--forth.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/fortran", to: "@codemirror--legacy-modes--mode--fortran.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/gas", to: "@codemirror--legacy-modes--mode--gas.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/gherkin", to: "@codemirror--legacy-modes--mode--gherkin.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/go", to: "@codemirror--legacy-modes--mode--go.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/groovy", to: "@codemirror--legacy-modes--mode--groovy.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/haskell", to: "@codemirror--legacy-modes--mode--haskell.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/haxe", to: "@codemirror--legacy-modes--mode--haxe.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/http", to: "@codemirror--legacy-modes--mode--http.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/idl", to: "@codemirror--legacy-modes--mode--idl.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/javascript", to: "@codemirror--legacy-modes--mode--javascript.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/jinja2", to: "@codemirror--legacy-modes--mode--jinja2.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/julia", to: "@codemirror--legacy-modes--mode--julia.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/livescript", to: "@codemirror--legacy-modes--mode--livescript.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/lua", to: "@codemirror--legacy-modes--mode--lua.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/mathematica", to: "@codemirror--legacy-modes--mode--mathematica.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/mbox", to: "@codemirror--legacy-modes--mode--mbox.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/mirc", to: "@codemirror--legacy-modes--mode--mirc.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/mllike", to: "@codemirror--legacy-modes--mode--mllike.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/modelica", to: "@codemirror--legacy-modes--mode--modelica.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/mscgen", to: "@codemirror--legacy-modes--mode--mscgen.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/mumps", to: "@codemirror--legacy-modes--mode--mumps.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/nginx", to: "@codemirror--legacy-modes--mode--nginx.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/nsis", to: "@codemirror--legacy-modes--mode--nsis.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/ntriples", to: "@codemirror--legacy-modes--mode--ntriples.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/octave", to: "@codemirror--legacy-modes--mode--octave.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/oz", to: "@codemirror--legacy-modes--mode--oz.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/pascal", to: "@codemirror--legacy-modes--mode--pascal.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/perl", to: "@codemirror--legacy-modes--mode--perl.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/pig", to: "@codemirror--legacy-modes--mode--pig.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/powershell", to: "@codemirror--legacy-modes--mode--powershell.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/properties", to: "@codemirror--legacy-modes--mode--properties.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/protobuf", to: "@codemirror--legacy-modes--mode--protobuf.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/puppet", to: "@codemirror--legacy-modes--mode--puppet.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/python", to: "@codemirror--legacy-modes--mode--python.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/q", to: "@codemirror--legacy-modes--mode--q.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/r", to: "@codemirror--legacy-modes--mode--r.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/rpm", to: "@codemirror--legacy-modes--mode--rpm.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/ruby", to: "@codemirror--legacy-modes--mode--ruby.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/sas", to: "@codemirror--legacy-modes--mode--sas.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/sass", to: "@codemirror--legacy-modes--mode--sass.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/scheme", to: "@codemirror--legacy-modes--mode--scheme.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/shell", to: "@codemirror--legacy-modes--mode--shell.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/sieve", to: "@codemirror--legacy-modes--mode--sieve.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/smalltalk", to: "@codemirror--legacy-modes--mode--smalltalk.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/solr", to: "@codemirror--legacy-modes--mode--solr.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/sparql", to: "@codemirror--legacy-modes--mode--sparql.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/spreadsheet", to: "@codemirror--legacy-modes--mode--spreadsheet.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/sql", to: "@codemirror--legacy-modes--mode--sql.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/stex", to: "@codemirror--legacy-modes--mode--stex.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/stylus", to: "@codemirror--legacy-modes--mode--stylus.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/swift", to: "@codemirror--legacy-modes--mode--swift.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/tcl", to: "@codemirror--legacy-modes--mode--tcl.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/textile", to: "@codemirror--legacy-modes--mode--textile.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/tiddlywiki", to: "@codemirror--legacy-modes--mode--tiddlywiki.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/tiki", to: "@codemirror--legacy-modes--mode--tiki.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/toml", to: "@codemirror--legacy-modes--mode--toml.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/troff", to: "@codemirror--legacy-modes--mode--troff.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/ttcn", to: "@codemirror--legacy-modes--mode--ttcn.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/ttcn-cfg", to: "@codemirror--legacy-modes--mode--ttcn-cfg.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/turtle", to: "@codemirror--legacy-modes--mode--turtle.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/vb", to: "@codemirror--legacy-modes--mode--vb.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/vbscript", to: "@codemirror--legacy-modes--mode--vbscript.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/velocity", to: "@codemirror--legacy-modes--mode--velocity.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/verilog", to: "@codemirror--legacy-modes--mode--verilog.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/vhdl", to: "@codemirror--legacy-modes--mode--vhdl.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/webidl", to: "@codemirror--legacy-modes--mode--webidl.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/xquery", to: "@codemirror--legacy-modes--mode--xquery.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/yacas", to: "@codemirror--legacy-modes--mode--yacas.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/yaml", to: "@codemirror--legacy-modes--mode--yaml.js" # @6.5.3
+pin "@codemirror/legacy-modes/mode/z80", to: "@codemirror--legacy-modes--mode--z80.js" # @6.5.3
+pin "@codemirror/state", to: "@codemirror--state.js" # @6.7.1
+pin "@codemirror/view", to: "@codemirror--view.js" # @6.43.9
+pin "@lezer/common", to: "@lezer--common.js" # @1.5.2
+pin "@lezer/cpp", to: "@lezer--cpp.js" # @1.1.6
+pin "@lezer/css", to: "@lezer--css.js" # @1.3.6
+pin "@lezer/highlight", to: "@lezer--highlight.js" # @1.2.3
+pin "@lezer/html", to: "@lezer--html.js" # @1.3.13
+pin "@lezer/java", to: "@lezer--java.js" # @1.1.3
+pin "@lezer/javascript", to: "@lezer--javascript.js" # @1.5.4
+pin "@lezer/json", to: "@lezer--json.js" # @1.0.3
+pin "@lezer/lr", to: "@lezer--lr.js" # @1.4.10
+pin "@lezer/markdown", to: "@lezer--markdown.js" # @1.7.2
+pin "@lezer/php", to: "@lezer--php.js" # @1.0.5
+pin "@lezer/python", to: "@lezer--python.js" # @1.1.19
+pin "@lezer/rust", to: "@lezer--rust.js" # @1.0.2
+pin "@lezer/xml", to: "@lezer--xml.js" # @1.0.6
+pin "style-mod" # @4.1.3
+pin "w3c-keyname" # @2.2.8
+pin "@codemirror/theme-one-dark", to: "@codemirror--theme-one-dark.js" # @6.1.3
+pin "@marijn/find-cluster-break", to: "@marijn--find-cluster-break.js" # @1.0.3
+pin "@codemirror/lang-angular", to: "@codemirror--lang-angular.js" # @0.1.4
+pin "@codemirror/lang-go", to: "@codemirror--lang-go.js" # @6.0.1
+pin "@codemirror/lang-jinja", to: "@codemirror--lang-jinja.js" # @6.0.1
+pin "@codemirror/lang-less", to: "@codemirror--lang-less.js" # @6.0.2
+pin "@codemirror/lang-liquid", to: "@codemirror--lang-liquid.js" # @6.3.2
+pin "@codemirror/lang-sass", to: "@codemirror--lang-sass.js" # @6.0.2
+pin "@codemirror/lang-vue", to: "@codemirror--lang-vue.js" # @0.1.3
+pin "@codemirror/lang-yaml", to: "@codemirror--lang-yaml.js" # @6.1.3
+pin "@codemirror/legacy-modes/mode/pug", to: "@codemirror--legacy-modes--mode--pug.js" # @6.5.3
+pin "@lezer/go", to: "@lezer--go.js" # @1.0.1
+pin "@lezer/sass", to: "@lezer--sass.js" # @1.1.0
+pin "@lezer/yaml", to: "@lezer--yaml.js" # @1.0.4
