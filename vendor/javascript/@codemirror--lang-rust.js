@@ -1,0 +1,4 @@
+// @codemirror/lang-rust@6.0.2 downloaded from https://ga.jspm.io/npm:@codemirror/lang-rust@6.0.2/dist/index.js
+
+import{parser as e}from"@lezer/rust";import{LRLanguage as t,indentNodeProp as n,foldNodeProp as r,continuedIndent as i,foldInside as a,LanguageSupport as o}from"@codemirror/language";const s=/* @__PURE__ */ t.define({name:`rust`,parser:/* @__PURE__ */ e.configure({props:[/* @__PURE__ */ n.add({IfExpression:/* @__PURE__ */ i({except:/^\s*({|else\b)/}),"String BlockComment":()=>null,AttributeItem:e=>e.continue(),"Statement MatchArm":/* @__PURE__ */ i()}),/* @__PURE__ */ r.add(e=>{if(/(Block|edTokens|List)$/.test(e.name))return a;if(e.name==`BlockComment`)return e=>({from:e.from+2,to:e.to-2})})]}),languageData:{commentTokens:{line:`//`,block:{open:`/*`,close:`*/`}},indentOnInput:/^\s*(?:\{|\})$/,closeBrackets:{stringPrefixes:[`b`,`r`,`br`]}}});function c(){return new o(s)}export{c as rust,s as rustLanguage};
+
